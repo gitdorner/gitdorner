@@ -4,4 +4,4 @@ main:
   - title: "Tags"
     url: /tags/
   - title: "About"
-    url: README.md
+    url: /about/
