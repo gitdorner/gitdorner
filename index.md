@@ -1,11 +1,4 @@
 ---
-layout: default
-title: Home
+layout: home
+author_profile: true
 ---
-
-# Welcome to My Tech Journey
-
-## Recent Posts
-{% for post in site.posts limit:3 %}
-  - [{{ post.title }}]({{ post.url }})
-{% endfor %}

@@ -1,40 +1,87 @@
-title: Marco Dorner - Tech Blog
-description: Exploring Technology and Learning
-baseurl: ""
-url: "https://gitdorner.github.io"
-remote_theme: "mmistakes/minimal-mistakes@4.26.2"
-
-# Author
-author:
-  name: Your Name
-  avatar: /assets/images/avatar.png # Add your profile picture
-  bio: Tech enthusiast, programmer, and writer.
-
-# Social Media
-social:
-  #twitter: 
-  github: gitdorner
-  #linkedin: 
-
-# Plugins
-plugins:
-  - jekyll-feed
-  - jekyll-seo-tag
-  - jekyll-sitemap
-
-# Defaults
-defaults:
-  - scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "single"
+title: Marco Dorner Tech Blog
+email:
+description: >- # this means to ignore newlines until "baseurl:"
+twitter_username: username
+github_username: gitdorner
+minimal_mistakes_skin: default
+search: true
 
 # Build settings
 markdown: kramdown
-assets:
-  css:
-    # - /assets/css/style.css
+remote_theme: mmistakes/minimal-mistakes
+# Outputting
+permalink: /:categories/:title/
+paginate: 5 # amount of posts to show
+paginate_path: /page:num/
+timezone: JST
+include:
+  - _pages
 
-# Permalink structure for blog posts
-permalink: /blog/:year/:month/:day/:title/
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
+
+# Plugins (previously gems:)
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+  - jekyll-include-cache
+
+author:
+  name   : "Marco Dorner"
+  avatar : "/assets/images/bio-photo.jpg"
+  bio    : "Software Engineer"
+  links:
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/gitdorner"
+
+footer:
+  links:
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/gitdorner"
+
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+  # _pages
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+
+category_archive:
+  type: liquid
+  path: /categories/
+tag_archive:
+  type: liquid
+  path: /tags/
