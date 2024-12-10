@@ -1,16 +1,31 @@
-## Hi there 👋
+## Hi there 👋 
 
-<!--
-**gitdorner/gitdorner** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+## 🌱 My Learning Journey
+- Kotlin Multiplatform Mobile
+- AI Agents
+- Language learning
 
-Here are some ideas to get you started:
+## 🛠 Professional Project Background
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+- Full stack Android development for automotive
+- RxJava for middleware
+- Design and implementation of development process for department
+- Unreal Engine in small project
+- HTML5 in small projects
+
+## 🎓 Academic Background
+
+- Machine Learning and Media Informatics
+- Inductive Learning
+- Interdisciplinary Problem Solving
+
+## 🌟 Professional Philosophy
+
+- First find out what is really needed
+- Creative technological approaches
+- Continuous learning and innovation
+
+## 💬 Languages
+- 🇩🇪 German 
+- 🇬🇧 English
+- 🇯🇵Japanese
