@@ -1,17 +1,39 @@
 title: Marco Dorner - Tech Blog
 description: Exploring Technology and Learning
-author: Marco Dorner
-email: marco.dorner@gmx.de
+baseurl: ""
+url: "https://gitdorner.github.io"
 
-# Build settings
-markdown: kramdown
-theme: minima
+# Author
+author:
+  name: Your Name
+  avatar: /assets/images/avatar.png # Add your profile picture
+  bio: Tech enthusiast, programmer, and writer.
+
+# Social Media
+social:
+  #twitter: 
+  github: gitdorner
+  #linkedin: 
+
+# Plugins
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "single"
+
+# Build settings
+markdown: kramdown
+assets:
+  css:
+    # - /assets/css/style.css
 
 # Permalink structure for blog posts
 permalink: /blog/:year/:month/:day/:title/
-
-# Social media links
-github_username: gitdorner
