@@ -1,7 +1,6 @@
 title: Marco Dorner Tech Blog
 email:
 description: >- # this means to ignore newlines until "baseurl:"
-twitter_username: username
 github_username: gitdorner
 minimal_mistakes_skin: default
 search: true
@@ -40,7 +39,7 @@ plugins:
 
 author:
   name   : "Marco Dorner"
-  avatar : "/assets/images/bio-photo.jpg"
+  avatar : "/assets/images/avatar.png"
   bio    : "Software Engineer"
   links:
     - label: "Twitter"
