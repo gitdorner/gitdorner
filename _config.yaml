@@ -2,6 +2,7 @@ title: Marco Dorner - Tech Blog
 description: Exploring Technology and Learning
 baseurl: ""
 url: "https://gitdorner.github.io"
+remote_theme: "mmistakes/minimal-mistakes@4.26.2"
 
 # Author
 author:
