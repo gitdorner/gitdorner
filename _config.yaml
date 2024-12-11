@@ -1,6 +1,11 @@
 title: Marco Dorner Tech Blog
 email:
 description: >- # this means to ignore newlines until "baseurl:"
+Tech blog about software development and technolgy. As I have a strong background as a Kotlin developer you might find 
+topics on Kotlin and Android development. But also as I am exploring other fields, like Machine Learning, Data Science 
+you can join me on my journey and my learnings.
+baseurl: / # base url for your site, e.g. "/" or "/blog/"
+url: https://gitdorner.github.io/ # where your blog is located
 github_username: gitdorner
 minimal_mistakes_skin: default
 search: true
@@ -42,18 +47,12 @@ author:
   avatar : "/assets/images/avatar.png"
   bio    : "Software Engineer"
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/gitdorner"
 
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/gitdorner"
