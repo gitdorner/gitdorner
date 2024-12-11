@@ -1,9 +1,9 @@
 title: Marco Dorner Tech Blog
 email:
 description: >- # this means to ignore newlines until "baseurl:"
-Tech blog about software development and technolgy. As I have a strong background as a Kotlin developer you might find 
-topics on Kotlin and Android development. But also as I am exploring other fields, like Machine Learning, Data Science 
-you can join me on my journey and my learnings.
+  Tech blog about software development and technolgy. As I have a strong background as a Kotlin developer you might find 
+   on Kotlin and Android development. But also as I am exploring other fields, like Machine Learning, Data Science 
+  you can join me on my journey and my learnings.
 baseurl: / # base url for your site, e.g. "/" or "/blog/"
 url: https://gitdorner.github.io/ # where your blog is located
 github_username: gitdorner
